@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Firm Web</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
         <div class="header__logoBtn user-select--none">
             <div class="header__logo">
-                <img class="icon__logo" src="imagenes/logo.png" alt="Logo">
+                <img class="icon__logo" src="img/logo.png" alt="Logo">
                 <h2 class="title__logo" id="titleLogo formatText">Attorneyster</h2>
             </div>
             <div class="header__btnBasket">
                 <div class="header__basket">
                     <a class="header__basket__link" href="">
-                        <img class="icon__basket" src="imagenes/icon-basket.png" alt="icon-basket">
+                        <img class="icon__basket" src="img/icon-basket.png" alt="icon-basket">
                         <p class="header--fzise basket__title">
                             Cart (<span id="counterBasket">0</span>)
                         </p>
@@ -38,8 +39,8 @@
                 <div class="nav__contact">
                     <div class="nav__contact__elemens nav__contact__phone">
                         <div class="nav__contact__icons nav__contact__phone__icons user-select--none">
-                            <img class="icon__ellipse" src="imagenes/Ellipse.png" alt="">
-                            <img class="icon icon__phone" src="imagenes/icon-phone.png" alt="icon-phone">
+                            <img class="icon__ellipse" src="img/Ellipse.png" alt="">
+                            <img class="icon icon__phone" src="img/icon-phone.png" alt="icon-phone">
                         </div>
                         <div class="nav__contact__phone__content">
                             <p class="title__contact__phone title__contact--color header--fzise user-select--none" id="titleContactPhone formatText" >Call Us On:</p>
@@ -48,8 +49,8 @@
                     </div>
                     <div class="nav__contact__elemens nav__contact__email">
                         <div class="nav__contact__icons nav__contact__email__icons user-select--none">
-                            <img class="icon__ellipse" src="imagenes/Ellipse.png" alt="">
-                            <img class="icon icon__email" src="imagenes/icon-email.png" alt="icon-email">
+                            <img class="icon__ellipse" src="img/Ellipse.png" alt="">
+                            <img class="icon icon__email" src="img/icon-email.png" alt="icon-email">
                         </div>
                         <div class="nav__contact__email__content">
                             <p class="title__contact__email title__contact--color header--fzise user-select--none" id="titleContactEmail formatText">Email Us:</p>
@@ -64,7 +65,30 @@
 
     </main>
     <footer>
-        
+        <div class="footer__header">
+            <img src="img/desing_icon_left.png" alt="footer_design_left">
+            <div class="footer__iconHeader title__logo"><img src="img/logo.png" alt="icon_footer"><p>Attorneyster</p></div>
+            <img src="img/desing_icon_right.png" alt="footer_desing_right">
+        </div>
+        <div class="footer__main">
+            <div class="footer__quickLink"><p>Quick Link</p>
+                <div class="quickLink__container-left">
+                    <p>Home</p>
+                    <p>About</p>
+                    <p>Contact</p>
+                    <p>Blog</p>
+                    <p>Blog Post</p>
+                    <p>Lawyers</p>
+                </div>
+                <div class="quickLink__container-right">
+                    <p>Lawyer Single</p>
+                    <p>Case Results</p>
+                    <p>Practice Areas</p>
+                    <p>Packages</p>
+                    <p>Package Single</p>
+                </div>
+            </div>
+        </div>
     </footer>
     <script src="js/main.js"></script>
 </body>

@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Cormorant Garamond', serif;
 }
 h1, h2, p{
     color: white;
@@ -68,6 +69,13 @@ a{
 }
 .title__logo{
     font-size: 3rem;
+    color: #FFF;
+    font-family: Cormorant Garamond;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
 }
 .icon__basket{
     height: 20px;
@@ -85,4 +93,28 @@ a{
 }
 .title__contact--color{
     color: rgb(214, 179, 101);
+}
+/*---------------------------------- Footer --------------------------------------  */
+footer {
+    max-width: 1920px;
+    max-height: 993px;
+    background-color: #1f2732 ;
+}
+
+footer p {
+    color: rgb(255, 255, 255);
+}
+.footer__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+}
+.footer__iconHeader {
+    display: flex;
+    align-items: center;
+}
+.footer__iconHeader img {
+    width: 56.44px;
+    height: 78px;
 }
