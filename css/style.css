@@ -17,7 +17,8 @@ a{
     user-select: none;
 }
 .header{
-    background-color: rgba(0, 0, 0, .8);
+    background: url("../img/background/background-opacity.png"), lightgray 50%;
+    background-color: #1f2732;
     padding: 15px 50px;
     font-family: 'Cormorant Garamond', serif;
 }
