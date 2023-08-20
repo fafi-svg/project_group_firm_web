@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/components.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ------------ BUTTONS ------------ ############################ -->
+        <!-- ------------ BOTON ESTILO POR DEFECTO ------------ -->
+    <div class="container-button">
+        <a href="#" class="button button--emphasis" id="buttonDefault">
+            button default
+        </a>
+    </div>
+        <!-- ------------ BOTON ESTILO SIN ENFASIS ------------ -->
+    <div class="container-button">
+        <a href="#" class="button" id="buttonDefault">  
+            button default
+        </a>
+    </div>
+
+    <div class="container-button">
+        <a href="#" class="button button--bgWhite button--hover" id="buttonDefault">
+            button default
+        </a>
+    </div>
+
+    <div class="container-button">
+        <a href="#" class="button button--bgshadowHigh" id="buttonDefault"> <!-- Modificadores  button--bgshadowHigh -->
+            button default
+        </a>
+    </div>
+
+    <!-- ------------ BUTTONS ------------ ############################ -->
+
+    <!-- ------------ CONTACTS ------------ ############################ -->
+
+    <div class="container-contact">
+        <div class="phone contact-content"> <!-- Modificadores  contact-content--bg -->
+            <div class="phone__content">
+                <img class="phone__icon-ellipse icon-ellipse" src="img/Ellipse.png" alt="">
+                <img class="phone__icon icon" src="img/icon-phone.png" alt="">
+            </div>
+            <div class="phone__text">
+                <p class="phone__tittle contact-title">Call Us On:</p>
+                <p class="phone__number" id="phoneNumber">911-987654321</p>
+            </div>
+        </div>
+        <div class="email contact-content">
+            <div class="email__content">
+                <img class="email__icon-ellipse icon-ellipse" src="img/Ellipse.png" alt="">
+                <img class="email__icon icon" src="img/icon-email.png" alt="">
+            </div>
+            <div class="email__text">
+                <p class="email__tittle contact-title">Email Us:</p>
+                <p class="email__date" id="emailDate">yourmail@mail.com</p>
+            </div>
+        </div>
+        <div class="office contact-content">
+            <div class="office__content">
+                <img class="office__icon-ellipse icon-ellipse" src="img/Ellipse.png" alt="">
+                <img class="office__icon icon" src="img/icon-email.png" alt="">
+            </div>
+            <div class="office__text">
+                <p class="office__tittle contact-title">Main Office:</p>
+                <p class="office__location" id="officeLocation"></p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- ------------ CONTACTS ------------ ############################ -->
+
+    <!-- ------------ TITLES ------------ ############################ -->
+
+    <div class="container-title">
+        <div class="title"> <!-- Modificadores  title--fbreverse -->
+            <div class="title__icon"> <!-- Modificadores  title__icon--center title__icon--right -->
+                <img src="img/Sep-short-left.png" alt="">
+            </div>
+            <h2 class="title__text title__text--ffamily">Deeper Understanding Better Solutions   </h2> <!-- Modificadores  title__text--center -->
+        </div>
+    </div>
+
+    <!-- ------------ TITLES ------------ ############################ -->
+
+    <!-- ------------ INPUTS ------------ ############################ -->
+
+    <div class="input-range">
+        <div class="input">
+            <div class="input__header">
+                <label for="inputRange-1" class="input__label">skill name</label>
+                <div class="input__number-range"><span class="input__number">0</span>%</div>
+            </div>
+            <input class="input__range" id="inputRange-1" name="input__range" type="range" min="1" max="100" value="0"> <!-- Modificadores  input__range--color -->
+        </div>
+    </div>
+
+    <div class="input-submit">
+        <div class="submit">
+            <input class="submit__input" id="submitInput" name="submit__input" type="text" autocomplete="none"> 
+            <label for="submitInput" class="submit__title">Full name</label>
+        </div>
+    </div>
+
+    <!-- <div class="input-submit">
+        <div class="submit">
+            <textarea class="submit__input" id="submitInput" name="submit__input" cols="30" rows="100"></textarea>
+            <label for="submitInput" class="submit__title">Full name</label>
+        </div>
+    </div> -->
+    
+    <!-- ------------ INPUTS ------------ ############################ -->
+</body>
+</html>
