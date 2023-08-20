@@ -14,9 +14,9 @@
     --color-contrast-lowLight: #d1b06b; 
 }
 body{
-    display: grid;
+    /* display: grid;
     gap: 2rem;
-    padding-top: 3rem;
+    padding-top: 3rem; */
 }
 /*-- ------------ BUTTONS ------------ ############################ --*/
 
