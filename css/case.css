@@ -1,0 +1,115 @@
+/*---------------------------------- Main --------------------------------------*/
+main {
+    background-color: #1f2732;
+    display: grid;
+    justify-content: center;
+}
+article {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    grid-gap: 25px 25px;
+    padding: 17vh;
+}
+section {
+    width: 575px;
+    height: 549px;
+}
+section img {
+    width: 573px;
+}
+.section__banner{
+    position:relative;
+    background-color: #161d27;
+}
+.section__banner button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 28px 92px 29px 92px;
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    background-color: #1f2732;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.section__banner button:hover {
+    color: #1F2732;
+    background-color: #D1B06B;
+    font-weight: 500;
+    transition: 0.6s;
+}
+.section__footer {
+    background-color: #161d27;
+    height: auto;
+    padding: 30px; 
+}
+.section__footer div {
+    padding: 10px;
+}
+.section__data p {
+    color: #D1B06B;
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.section__data h2 {
+    font-weight: 200;
+    color: #FFF;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 114.6%;
+}
+.section__content p {
+    color: #D7D7D7;
+    font-family: Outfit;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+.section__down p {
+    color: #D1B06B;
+    font-family: Outfit;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+/*---------------------------------- Partners --------------------------------------*/
+.partners__content {
+    padding: 10vh;
+}
+.partners__content div {
+    padding: 20px;
+}
+.partners__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.partners__header p {
+    color: black;
+    font-size: 28px;
+    font-weight: 549;
+}
+.partners__icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
