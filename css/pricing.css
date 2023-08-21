@@ -1,0 +1,119 @@
+/*---------------------------------- Main --------------------------------------*/
+main {
+    background-color: #1f2732;
+}
+.banner__img {
+    background: url(../img-pricing/background-banner-pricing.png), lightgray 50%;
+    background-size: cover;
+    background-color: #D1B06B;
+    background-repeat: no-repeat;
+    width: 1400px;
+    height: 436px;
+}
+.banner-pricing-img {
+    position: absolute;
+    right: 20px;
+}
+.banner__imgcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    /* justify-items: baseline; */
+    gap: 2px;
+    position: relative;
+    top: 35%;
+    padding: 0vh 10vh;
+}
+.banner__imgcontent h2 {
+    color: #1F2732;
+    font-family: Cormorant Garamond;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 650;
+}
+.banner__imgcontent p {
+    color: #1F2732;
+    font-family: Outfit;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.banner__subBanner {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-gap: 5px;
+    padding-top: 15vh;
+    padding-bottom: 8vh;
+}
+.banner__subBanner p {
+    color: #FFF;
+    text-align: center;
+    font-family: Cormorant Garamond;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 114.6%; /* 51.57px */  
+}
+/*---------------------------------- Plans --------------------------------------*/
+
+.single-plan, .group-plan,
+.business-plan {
+    background-color: #161d27;
+    width: 325px;
+    padding: 22px;
+    /* height: 651px; */
+}
+.plan-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #3A4553;
+    padding-bottom: 3.5vh;
+}
+.tittle-header {
+    color: #FFF;
+    text-align: center;
+    font-family: Cormorant Garamond;
+    font-size: 30px;
+}
+.subTittle-header {
+    color: #D1B06B;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+.plan-content {
+    text-align: center;
+}
+.plan-content hr {
+    margin-top: 20px;
+}
+.price {
+    color: #D1B06B;
+    font-family: Outfit;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 20px;
+}
+.PerCase {
+    background-color: #1F2732;
+    margin: 0 12vh;
+    padding: 5px;
+}
+.p-content {
+    padding-top: 20px;
+    color: #D7D7D7;
+    font-size: 15px;
+}
+.article__plans {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    padding: 1px 210px;
+}
