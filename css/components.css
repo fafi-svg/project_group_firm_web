@@ -71,6 +71,27 @@ body{
     color:black;
     background-color: var(--color-contrast-lowLight);
 }
+.container-button-cyellow a {
+    background-color: #d1b06b;
+    padding: 15px;
+    padding-right: 52px;
+    padding-left: 52px;
+    color: #1F2732;
+    font-weight: 500;
+}
+.container-button-cyellow {
+    padding-top: 15px;
+}
+.container-button-cheight a {
+    padding: 18px;
+    padding-right: 32px;
+    padding-left: 32px;
+    color: #ffffff;
+    font-weight: 500;
+}
+.container-button-cheight {
+    padding-top: 15px;
+}
 /*-- ------------ BUTTONS ------------ ############################ --*/
 
 /*-- ------------ CONTACTS ------------ ############################ --*/
