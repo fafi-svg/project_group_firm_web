@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    margin: 0;
+}
+header{
+    padding: 15px 0 0 0 !important;
+    background-image: url();
+}
+.header__logoBtn, .header__nav {
+    padding: 10px 10% !important;
+}
+.headboard{
+    display: grid;
+    position: relative;
+}
+.headboard__content{
+    width: auto;
+    max-width: calc(50vw - 10%);
+    position: absolute;
+    left: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    gap: 15px;
+}
+.title{
+    width: max-content !important;
+    max-width: 100%;
+}
+.title__text{
+    font-size: 2.5rem;
+    width: 400px;
+}
+.title__text--ffamily{
+    font-family: Cormorant Garamond;
+    font-weight: 500;
+}
+.headboard__text p{
+    color: var(--color-contrast-lowLight);
+}
+.button{
+    text-align: center;
+}
+.headboard__img{
+ width: 100%;
+ display: grid;
+ justify-items: end;
+}
+.headboard__img img{
+    height: 500px;
+}
+
+/* -------- ARTICLE-PERSONAL_INFORMATION --------###############*/
+.personal-Information{
+    background-color: var(--color-bg-shadowHigh);
+}
+.pInformation,.pPractices,.pAchievements{
+    display: grid;
+    grid-template-columns: clamp(300px, 40vw, 420px)  clamp(300px, 50vw, 800px);
+    padding: 5em 10%;
+    gap: 25px;
+    justify-content: center;
+}
+.pInformation__pictures-img img{
+    width: 100%;
+}
+.pInformation__pictures{
+    display: grid;
+    gap: 15px;
+}
+.pInformation__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.pInformation__text-title{
+    font-weight: 500;
+}
+.pInformation__paragraph{
+    font-weight: 200;
+}
+.pInformation__photo{
+    overflow: hidden;
+    margin-bottom: -4px;
+    background-color: var(--color-bg-shadow);
+    width: 70px;
+    border-radius: 50%;
+}
+.pInformation__photo img{
+    margin-bottom: -4px;
+    width: inherit;
+}
+.pInformation__person{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.pInformation__data, 
+.data__experience,
+.data__case{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pInformation__data {
+    gap: 20px;
+    justify-content: start;
+}
+.data__experience,
+.data__case{
+    width: 220px;
+    height: 70px;
+    background-color: aqua;
+    gap: 10px;
+    padding: 0px 30px;
+}
+.data__case{
+    background-color: var(--color-bg-middleTone);
+}
+.data__icon{
+    width: 40px;
+}
+.data__icon img{
+    width: inherit;
+}
+.data__years{
+    padding: 5px;
+    background-color: var(--color-bg-shadow);
+    border-radius: 2px;
+}
+.data__years-number{
+    font-weight: 500;
+}
+.data__experience{
+    background-color: var(--color-contrast-lowLight);
+}
+.data__text-case p, .data__text-year p{
+    line-height: 15px;
+}
+.data__text-year p{
+    color: black;
+}
+
+/* -------- ARTICLE-PERSONAL_PRACTICES --------###############*/
+
+.personal-Practices{
+    background-color: var(--color-bg-shadow);
+}
+.pPractices{
+    grid-template-columns:auto;
+    grid-template-rows: max-content  max-content;
+}
+.pPractices__header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.pPractices__title{
+    width: max-content;
+}
+.pPractices__header hr{
+    height: 80px;
+    border: 1px 0 0 0 solid;
+    border-color: var(--color-bg-middleTone);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.pPractices__text--emphasis{
+    color: var(--color-contrast-lowLight);
+}
+.Practices{
+    background-color: var(--color-bg-shadowHigh);
+    aspect-ratio: 1.5/1;
+}
+.pPractices__tablet{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1900px;
+}
+.practices__text{
+    padding: 20px;
+    display: grid;
+    gap: 10px;
+    justify-content: space-between;
+    height: 100%;
+}
+.practices__text hr{
+    height: 1px;
+
+}
+.practices__icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.practices__icons a{
+ height: max-content;
+}
+.practices__icon-img img{
+    height: 40px;
+}
+
+/* -------- ARTICLE-ACHIEVEMENTS --------###############*/
+
+.pAchievements p, .pAchievements span, .title__text--cBlack{
+    color: black;
+}
+.pAchievements{
+    grid-template-columns: auto;
+    justify-items: center;
+    text-align: center;
+}
+.pAchievements__count{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.title--fdrow{
+    display: flex;
+    align-items: center;
+}
+.title--fweight600{
+    font-weight: 600;
+}
+.pAchievements__footer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.pAchievements__count-text{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.pAchievements__icons{
+    position: absolute;
+    top: 20%;
+    left: 16%;
+}
+.pAchievements__count-text{
+    padding: 5px 10px;
+    background-color: beige;
+}
+.pAchievements__content-description--color{
+    color: var(--color-bg-middleTone) !important;
+}
+.pAchievements__content-description,
+.pAchievements__content-title,
+.pAchievements__content-number{
+    text-align: start;
+}

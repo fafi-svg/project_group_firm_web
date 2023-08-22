@@ -13,6 +13,12 @@
     --color-bg-shadow: #161d27;
     --color-contrast-lowLight: #d1b06b; 
 }
+.user_select-none{
+    user-select: none;
+}
+.cursor_pointe{
+    cursor: pointer;
+}
 .body-components{
     display: grid;
     gap: 2rem;
@@ -42,9 +48,19 @@
     border-color: var(--color-contrast-lowLight);
     transition: box-shadow .4s ease-in-out;
 }
+.button--bgShadow{
+    background-color: var(--color-bg-shadow);
+    border: 1px solid;
+    border-color: var(--color-bg-shadow);
+}
 .button--emphasis{
     background-color: var(--color-contrast-lowLight);
     color: var(--color-bg-shadow);
+}
+.button--slim{
+    padding: 5px 10px;
+    width: 120px;
+    height: 40px;
 }
 
 .button:hover{
