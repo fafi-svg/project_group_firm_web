@@ -182,7 +182,7 @@ header{
 }
 .pPractices__tablet{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3,clamp(300px, 30vw,400px));
     gap: 20px;
     max-width: 1900px;
 }
@@ -237,6 +237,12 @@ header{
     width: 100%;
     justify-content: space-between;
 }
+.pAchievements__numbers{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 .pAchievements__count-text{
     position: relative;
     display: flex;
@@ -245,11 +251,14 @@ header{
 }
 .pAchievements__icons{
     position: absolute;
-    top: 20%;
-    left: 16%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
 }
 .pAchievements__count-text{
-    padding: 5px 10px;
+    padding: 32px 40px;
     background-color: beige;
 }
 .pAchievements__content-description--color{
@@ -259,4 +268,12 @@ header{
 .pAchievements__content-title,
 .pAchievements__content-number{
     text-align: start;
+}
+
+.pAchievements__numbers-img img{
+    height: 80px;
+}
+.pAchievements__icons{
+    display: grid;
+    place-content: center;
 }
