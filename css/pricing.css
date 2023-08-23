@@ -12,13 +12,11 @@ main {
 }
 .banner-pricing-img {
     position: absolute;
-    right: 20px;
 }
 .banner__imgcontent {
     display: flex;
     flex-direction: column;
     align-items: baseline;
-    /* justify-items: baseline; */
     gap: 2px;
     position: relative;
     top: 35%;
@@ -54,7 +52,13 @@ main {
     font-size: 38px;
     font-style: normal;
     font-weight: 500;
-    line-height: 114.6%; /* 51.57px */  
+    line-height: 114.6%; 
+}
+.article__banner {
+    display: flex;
+    justify-content: center;
+    padding: 0% 8.1%;
+    padding-top: 9%;
 }
 /*---------------------------------- Plans --------------------------------------*/
 
@@ -63,7 +67,6 @@ main {
     background-color: #161d27;
     width: 325px;
     padding: 22px;
-    /* height: 651px; */
 }
 .plan-header {
     display: flex;
@@ -104,7 +107,7 @@ main {
 .PerCase {
     background-color: #1F2732;
     margin: 0 12vh;
-    padding: 5px;
+    padding: 2%;
 }
 .p-content {
     padding-top: 20px;
@@ -115,32 +118,34 @@ main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-    padding: 1px 210px;
+    padding: 0px 15%;
+    padding-bottom: 10%;
 }
 /*---------------------------------- FAQ's --------------------------------------*/
-/* FAQ {
-    width: 1920px;
-    height: 2013px;
-} */
 .FAQ-header {
-    border: 1px solid;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* padding-top: 6%;
-    padding-bottom: 2%; */
+    padding-top: 10%;
+    padding-bottom: 5%;
 }
 .FAQ-header p {
     color: black;
     padding-bottom: 5px;
+    color: #1F2732;
+    font-family: Cormorant Garamond;
+    font-size: 35px;
+    font-style: normal;
+    line-height: 114.6%;
 }
 .FAQ-content {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(3,1fr);
     justify-content: center;
-    padding: 0px 28%;
+    padding: 0px 50%;
+    column-gap: 60px;
 }
+
 .FAQ-content h2 {
     color: #1F2732;
     font-family: Cormorant Garamond;
@@ -155,4 +160,36 @@ main {
     font-style: normal;
     font-weight: 400;
     line-height: 140%; /* 28px */
+    padding-bottom: 30px;
+}
+.FAQ-section {
+    width: 500px;
+}
+.FAQ-footer {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+.FAQ-footer p {
+    color: black;
+    text-align: center;
+    padding-bottom: 26px;
+    color: #909090;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+.FAQ-footer h3 {
+    padding-bottom: 26px;
+    color: #161D27;
+    text-align: center;
+    font-family: Cormorant Garamond;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 560;
 }
