@@ -101,6 +101,7 @@
     color:black;
     background-color: var(--color-contrast-lowLight);
 }
+/* --------buttons of single case---------- */
 .container-button-cyellow a {
     background-color: #d1b06b;
     padding: 15px;
@@ -121,6 +122,26 @@
 }
 .container-button-cheight {
     padding-top: 15px;
+}
+/* Buttons of single case ends */
+/*------------------------ Buttons of pricing------------------------- */
+.container-button__pricing {
+    display: flex;
+    justify-content: center;
+    padding-top: 6vh;
+}
+.container-button__pricing a {
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+.container-button__padding a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 14px;
+    gap: 10px;
 }
 /*-- ------------ BUTTONS ------------ ############################ --*/
 

@@ -1,0 +1,60 @@
+/* ----------------------------------main--------------------------------------------- */
+main {
+    background: #1F2732;
+}
+.business-lawImg {
+    display: grid;
+    justify-content: center;
+    padding-top: 12%;
+}
+.business-lawImg img {
+    width: 1150px;
+    /* height: 949px;  */ 
+}
+.business-lawContent {
+    padding: 0px 11.4%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.business-lawContent div {
+    padding-bottom: 2%;
+}
+.tittle-law {
+    color: #FFF;
+    font-family: Cormorant Garamond;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 114.6%;
+    padding-bottom: 18px;
+}
+.p-law {
+    color: #D7D7D7;
+    font-family: Outfit;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    width: 98%;
+}
+.ul-law, .ol-law {
+    color: #D7D7D7;
+    font-family: Outfit;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    padding-top: 2.5%;
+    padding: 20px;
+}
+.ul-law li, .ol-law li {
+    padding-bottom: 15px;
+}
+.law-line {
+    padding: 0px 11%;
+}
+.law-line hr {
+    border: 0;
+    height: 1px;
+    background: #3A4553;
+}
