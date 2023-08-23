@@ -438,7 +438,7 @@ p.reviews__name{
     justify-content: center;
     padding: 10px 30px;
     margin: auto;
-    margin-top: -48px;
+    margin-top: -40px;
     background-color: white;
     position: relative;
     width: max-content;
@@ -472,7 +472,7 @@ p.reviews__name{
     color: var(--color-contrast-lowLight) !important;
 }
 
-/* -------- ARTICLE-QUESTIONS --------###############*/
+/* -------- ARTICLE-CUNSULTATION --------###############*/
 
 .consultation__tittle, .contact__title{
     font-family: Cormorant !important;
@@ -597,6 +597,7 @@ p.reviews__name{
     filter: blur(2px);
 }
 
+/* -------- ARTICLE-BLOGS --------###############*/
 
 .section-blogs{
     background-color: var(--color-bg-shadow);
@@ -607,4 +608,79 @@ p.reviews__name{
 }
 .blogs__title-text{
     font-size: 2rem
+}
+
+.blogs__grid{
+    display: grid;
+    grid-template-columns: repeat(3, clamp(300px, 25vw, 400px));
+    gap: 35px;
+    width: 70%;
+    max-width: 1900px;
+    margin: auto;
+}
+.blogs__title-text{
+    font-size: 1.5rem;
+    font-family: Cormorant Garamond;
+}
+.blogs__item-head p, .blogs__content-text{
+    font-size: .8rem;
+    font-family: Outfit;
+}
+.blogs__item{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 70px;
+}
+.blogs__recommended{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 70%;
+    margin: auto;
+    gap: 30px;
+    align-items: center;
+}
+.blogs__container{
+    display: grid;
+    gap: 100px;
+}
+.blogs__container hr{
+    border-bottom: 1px solid var(--color-bg-middleTone);
+    opacity: .3;
+}
+.blogs__container-hr{
+    width: 70%;
+    max-width: 1900px;
+    margin: auto;
+}
+.blogs__recommended-img img{
+    width: inherit;
+}
+.blogs__recommended-content{
+   display: grid;
+   gap: 10px;
+}
+.blogs__content{
+    display: grid;
+    gap: 10px;
+}
+.blogs__item-img{
+    width: 100%;
+}
+.blogs__item-img img{
+    width: inherit;
+}
+.blogs__item-head{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.blogs__item-head hr, .blogs__recommended-hr{
+    border: 1px solid var(--color-contrast-lowLight);
+    height: 60%;
+}
+.blogs__links, .blogs__item-head p{
+    color: var(--color-contrast-lowLight);
+}
+.blogs__links{
+    border-bottom: 1px solid var(--color-contrast-lowLight);
 }
