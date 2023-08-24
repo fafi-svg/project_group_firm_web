@@ -13,11 +13,29 @@
     --color-bg-shadow: #161d27;
     --color-contrast-lowLight: #d1b06b; 
 }
+.user_select-none{
+    user-select: none;
+}
+.cursor_pointe{
+    cursor: pointer;
+}
 .body-components{
     display: grid;
     gap: 2rem;
     padding-top: 3rem;
 }
+/*-- ------------ CLASS_GLOBALS ------------ ############################ --*/
+
+.cursor_pointer{
+    cursor: pointer;
+}
+.cursor_pointer-none{
+    cursor: none;
+}
+.user_select-none{
+    user-select: none;
+}
+
 /*-- ------------ BUTTONS ------------ ############################ --*/
 
 .button{
@@ -42,11 +60,23 @@
     border-color: var(--color-contrast-lowLight);
     transition: box-shadow .4s ease-in-out;
 }
+.button--bgShadow{
+    background-color: var(--color-bg-shadow);
+    border: 1px solid;
+    border-color: var(--color-bg-shadow);
+}
 .button--emphasis{
     background-color: var(--color-contrast-lowLight);
     color: var(--color-bg-shadow);
 }
-
+.button--slim{
+    padding: 5px 10px;
+    width: 120px;
+    height: 40px;
+}
+.button--large{
+    width: 180px;
+}
 .button:hover{
     background-color: var(--color-bg-white);
     transition: .4s ease-in-out;
@@ -156,7 +186,6 @@
 .title--fbreverse{
     display: flex;
     flex-direction: column-reverse;
-    gap: 15px;
 }
 .title__icon--center{
     text-align: center;
@@ -174,7 +203,6 @@
 
 .input{
     width: auto;
-    max-width: 350px;
     min-width: 150px;
     background-color: var(--color-bg-shadowHigh);
     padding: 10px;
@@ -198,7 +226,7 @@ input[type="range"] {
 	color: var(--color-contrast-lowLight);
 	--thumb-height: 1.125em;
 	--track-height: 0.125em;
-	--track-color: rgba(0, 0, 0, 0.2);
+	--track-color: rgb(255, 255, 255);
 	--brightness-hover: 180%;
 	--brightness-down: 80%;
 	--clip-edges: 0.125em;
@@ -250,24 +278,25 @@ input[type="range"]::-webkit-slider-thumb {
 	);
 }
 
-input[type="range"]:hover::-webkit-slider-thumb {
+/* input[type="range"]:hover::-webkit-slider-thumb {
 	filter: brightness(var(--brightness-hover));
 	cursor: grab;
-}
+} */
 
-input[type="range"]:active::-webkit-slider-thumb {
+/* input[type="range"]:active::-webkit-slider-thumb {
 	filter: brightness(var(--brightness-down));
 	cursor: grabbing;
-}
+} */
 
 input[type="range"]::-webkit-slider-runnable-track {
 	background: linear-gradient(var(--track-color) 0 0) scroll no-repeat center /
 		100% calc(var(--track-height) + 1px);
 }
 
-input[type="range"]:disabled::-webkit-slider-thumb {
+/* input[type="range"]:disabled::-webkit-slider-thumb {
+
 	cursor: not-allowed;
-}
+} */
 
 /* === Firefox specific styles === */
 input[type="range"],
