@@ -404,3 +404,48 @@ input[type="range"]:disabled::-moz-range-thumb {
     transition: .5s ease-in-out;
 }
 /*-- ------------ INPUTS ------------ ############################ --*/
+.submit-bgcontact {
+    background-color: #161d27;
+}
+.submit-msgcontact {
+    width: 300px;
+    height: 100px;
+}
+.submit__msgcontact {
+    width: auto;
+    height: 150px;
+}
+.input-submit-pdcontact {
+    padding-bottom: 25px;
+}
+.submit__title-msg {
+    padding: 15px;
+    
+}
+.submit__input-contact {
+    border: none;
+    border: 1px solid #D1B06B;
+}
+.submit__input-contact:focus {
+    border-bottom: none;
+    border: 1px solid #D1B06B;
+}
+.submit__input-contact:focus ~ .submit__title{
+    top: none;
+    transition: .5s ease-in-out;
+}
+.contact-main-form__modLabel label {
+    color: #D7D7D7;
+}
+/* Button of contact us content */
+.container-button__contact {
+    display: flex;
+    padding: 0% 1%;
+    padding-top: 3%;
+}
+.container-button__contact a {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
