@@ -1,0 +1,73 @@
+/* ------------------------------main------------------------------------ */
+.contact-header-hello h2, .contact-header-vegas h2,
+.contact-header-newYork h2 {
+    color: #D1B06B;
+    font-family: Cormorant Garamond;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 550;
+}
+.contact-header-hello p, .contact-header-vegas p,
+.contact-header-newYork p {
+    color: #D7D7D7;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 320;
+}
+.contact-header-vegas h4, .contact-header-newYork h4 {
+    color: #D7D7D7;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+main {
+    padding: 0 12%;
+}
+.contact-header {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.contact-header-hello {
+    border-right: 1px solid #3A4553;
+    padding-right: 10%;
+}
+.contact-header-vegas {
+    border-right: 1px solid #3A4553;
+    padding-right: 10%;
+   /*  padding-left: 3%; */
+}
+/* -----------------------------contact-main------------------------------- */
+.contact-main-form {
+    background: #161D27;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    padding: 5%;
+}
+.contact-main-info {
+    display: flex;
+    padding-top: 1%;
+    padding-bottom: 20%;
+    justify-content: space-between;
+    
+}
+.container-contact {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.container-contact-right {
+    width: 48%;
+}
+.container-contact, .container-contact-right {
+    background-color: #161D27;
+    padding: 2%;
+    gap: 7vh;
+    
+}
