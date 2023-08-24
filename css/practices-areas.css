@@ -1,0 +1,9 @@
+.practices__title{
+    font-size: 1.4rem;
+}
+.practices__text-description{
+    color: gainsboro;
+}
+.contact__consultation{
+    background-color: var(--color-bg-shadowHigh);
+}
