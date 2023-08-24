@@ -16,6 +16,9 @@ header{
 .text--ffamily-Cormorant{
     font-family: Cormorant Garamond;
 }
+.title__icon img{
+    width: 90px;
+}
 .header__logoBtn, .header__nav {
     width: 80%;
     margin: auto;
@@ -599,6 +602,10 @@ p.reviews__name{
 
 /* -------- ARTICLE-BLOGS --------###############*/
 
+.blogs{
+    display: grid;
+    gap: 30px;
+}
 .section-blogs{
     background-color: var(--color-bg-shadow);
     padding: 150px 0px;
@@ -612,9 +619,9 @@ p.reviews__name{
 
 .blogs__grid{
     display: grid;
-    grid-template-columns: repeat(3, clamp(300px, 25vw, 400px));
+    grid-template-columns: repeat(3, clamp(250px, 22vw, 400px));
     gap: 35px;
-    width: 70%;
+    width: auto;
     max-width: 1900px;
     margin: auto;
 }
@@ -639,6 +646,9 @@ p.reviews__name{
     gap: 30px;
     align-items: center;
 }
+.blogs__recommended-img{
+    width:100%;
+}
 .blogs__container{
     display: grid;
     gap: 100px;
@@ -653,7 +663,7 @@ p.reviews__name{
     margin: auto;
 }
 .blogs__recommended-img img{
-    width: inherit;
+    width: 100%;
 }
 .blogs__recommended-content{
    display: grid;
@@ -683,4 +693,7 @@ p.reviews__name{
 }
 .blogs__links{
     border-bottom: 1px solid var(--color-contrast-lowLight);
+}
+.blogs__title-text{
+    font-size: 2rem;
 }
