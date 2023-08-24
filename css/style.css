@@ -22,6 +22,9 @@ a{
     padding: 15px 150px;
     font-family: 'Cormorant Garamond', serif;
 }
+.header__btnBasket, .header__nav{
+    font-family: 'Outfit', sans-serif;
+}
 .header__nav , 
 .header__logoBtn,
 .header__btnBasket, 

@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>404</title>
     <link rel="stylesheet" href="css/404.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Epilogue&family=Outfit&display=swap" rel="stylesheet">
 </head>
@@ -31,10 +33,10 @@
         </div>
         <nav class="header__nav">
             <div class="header__nav__options user-select--none">
-                <a class="header--fzise" id="headerNavLink formatText" href="">Home</a>
-                <a class="header--fzise" id="headerNavLink formatText" href="">About Us</a>
-                <a class="header--fzise" id="headerNavLink formatText" href="">Pages</a>
-                <a class="header--fzise" id="headerNavLink formatText" href="">Contact Us</a>
+                <a class="header--fzise" id="headerNavLink formatText" href="homePage.html">Home</a>
+                <a class="header--fzise" id="headerNavLink formatText" href="about.html">About Us</a>
+                <a class="header--fzise" id="headerNavLink formatText" href="404.html">Pages</a>
+                <a class="header--fzise" id="headerNavLink formatText" href="contact-us.html">Contact Us</a>
             </div>
             <div class="header__nav__contact">
                 <div class="nav__contact">
@@ -69,12 +71,12 @@
                 <img src="img/Icon-3.png" alt="">
             </div>
             <div class="block__text">
-                <p class="title">Page Not Found</p>
+                <p class="block__title">Page Not Found</p>
                 <span>The page you are looking for doesn't exist or has been moved.</span>
             </div>
-            <button class="block__button">
-                <p>Back to Home</p>
-            </button>
+            <a href="homePage.html" class="button button--emphasis" id="buttonDefault">
+                button default
+            </a>
         </div>
     </main>
     <footer>

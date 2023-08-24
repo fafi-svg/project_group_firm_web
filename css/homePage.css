@@ -697,3 +697,11 @@ p.reviews__name{
 .blogs__title-text{
     font-size: 2rem;
 }
+.pre__footer-img{
+    display: contents;
+    width: 100%;
+}
+.pre__footer-img img{
+    width: inherit;
+    margin-bottom: -5px;
+}

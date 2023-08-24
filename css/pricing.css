@@ -9,9 +9,11 @@ main {
     background-repeat: no-repeat;
     width: 1400px;
     height: 436px;
+    position: relative;
 }
 .banner-pricing-img {
     position: absolute;
+    right: 0;
 }
 .banner__imgcontent {
     display: flex;
