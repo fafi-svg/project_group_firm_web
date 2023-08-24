@@ -1,0 +1,232 @@
+:root{
+    --padding-clamp-header : clamp(10px 5vw 8rem);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+h1, h2, p{
+    color: white;
+}
+a{
+    color: white;
+}
+.user-select--none, img{
+    user-select: none;
+}
+.header{
+    background: url("../img/background/background-opacity.png"), lightgray 50%;
+    background-color: #1f2732;
+    padding: 15px 50px;
+    height: 80vh;
+    font-family: 'Cormorant Garamond', serif;
+}
+.header__nav , 
+.header__logoBtn,
+.header__btnBasket, 
+.header__logo, 
+.header__basket__link,
+.nav__contact, 
+.nav__contact__elemens,
+.header__nav__options
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__contact__icons{
+    position: relative;
+}
+.nav__contact__icons .icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+.header__nav{
+    border: 1px solid rgba(220, 220, 220, 0.1);
+    border-right: 0px;
+    border-left: 0px;
+}
+.header__logoBtn , .header__nav{
+    padding: 15px 0;
+}
+.header__btnBasket,
+.nav__contact,
+.header__nav__options
+{
+    gap: 50px;
+}
+.nav__contact__elemens, 
+.header__logo,
+.header__basket__link{
+    gap: 10px;
+}
+.icon__logo{
+    height: 4rem;
+}
+.title__logo{
+    font-size: 3rem;
+    color: #FFF;
+    font-family: Cormorant Garamond;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.icon__basket{
+    height: 20px;
+}
+.header__btn__link{
+    background-color: rgba(255, 255, 255, .1);
+    padding: 20px 25px;
+}
+.header--fzise{
+    font-size: 1rem;
+}
+.icon__ellipse{
+    height: 3rem;
+    margin-top: 2px;
+}
+.title__contact--color{
+    color: rgb(214, 179, 101);
+}
+.header__titulo-licenses{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    font-size: 65px;
+    font-family: 'Cormorant Garamond', serif;
+}
+main{
+    background: #1f2732;
+    padding: 100px;
+     
+}
+.licenses__block{
+    display: grid;
+    grid-template-columns: 400px auto;
+    justify-content: space-between;
+    gap: 100px;
+    padding-bottom: 150px
+}
+.licenses__block-message{
+    font-family: Outfit;
+    line-height: 40px;
+}
+.licenses__block-title{
+    font-family: Cormorant Garamond;
+    font-size: 35px;
+}
+.text__color{
+    color: #d1b06b;
+}
+.text__content{
+    display: grid;
+    gap: 8px;
+}
+.p{
+    padding-bottom: 40px;
+}
+/*---------------------------------- Footer --------------------------------------*/
+footer {
+    /* max-width: 1920px;
+    max-height: 993px; */
+    height: 110vh;
+    background-color: #1f2732 ;
+    font-family: Cormorant Garamond;
+}
+
+footer p {
+    color: rgb(255, 255, 255);
+}
+.footer__main {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 8vh;
+}
+.footer__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.footer__header img {
+    width: 25%;
+}
+.footer__iconHeader {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.footer__iconHeader img {
+    width: 56.44px;
+    height: 78px;
+}
+.footer__tittleContainer {
+    display: flex;
+    font-size: 25px;
+    font-style: normal;
+    border-top: 1px solid #3a4553;
+    border-bottom: 1px solid #3a4553;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.footer__container {
+    display: flex;
+    flex-direction: column;
+}
+.container__row {
+    display: flex;
+}
+.footer__container-link {
+    display: flex;
+    flex-direction: row;
+}
+.container__left {
+    font-family: 'Outfit', sans-serif;
+    
+}
+.container__left,.container__right,
+.container__only, .container__up,
+.container__down, .container__only {
+    font-family: 'Outfit', sans-serif;
+    padding-top: 25px;
+}
+.container__row p {
+    padding-bottom: 15px;
+    padding-right: 3rem;
+}
+.container__only p {
+    padding-bottom: 15px;
+    padding-right: 1rem;
+}
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 12vh;
+    border-top: 1px solid #3a4553;
+    border-bottom: 1px solid #3a4553;
+    padding: 10px;
+    width: 180vh;
+    left: 70px;
+    position: relative;
+}
+.footer__follows {
+    display: flex;
+    gap: 18px;
+}
+.follows__img img {
+    padding-right: 14px;
+}
+.footer__bottom .span{
+    color: #d1b06b;
+}
