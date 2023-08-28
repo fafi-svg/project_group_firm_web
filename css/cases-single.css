@@ -68,6 +68,7 @@ container article {
     flex-direction: column;
     background-color: white;
     width: 305px;
+    margin-bottom: 5%;
 }
 .case-details__content {
     padding: 35px 36px;
@@ -110,6 +111,7 @@ container article {
     background-size: cover;
     background-color: #1f2732;
     padding: 30px;
+    margin-bottom: 5%;
 }
 .case-details__About div {
     padding-bottom: 14px;
